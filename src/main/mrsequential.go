@@ -3,7 +3,7 @@ package main
 //
 // simple sequential MapReduce.
 //
-// go run mrsequential.go wc.go pg*.txt
+// go run mrsequential.go wc.so pg*.txt
 //
 
 import "fmt"
