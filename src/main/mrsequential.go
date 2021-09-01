@@ -6,13 +6,16 @@ package main
 // go run mrsequential.go wc.so pg*.txt
 //
 
-import "fmt"
-import "6.824/mr"
-import "plugin"
-import "os"
-import "log"
-import "io/ioutil"
-import "sort"
+import (
+	"fmt"
+	"io/ioutil"
+	"log"
+	"os"
+	"plugin"
+	"sort"
+
+	"6.824/mr"
+)
 
 // for sorting by key.
 type ByKey []mr.KeyValue
@@ -57,6 +60,8 @@ func main() {
 	//
 
 	sort.Sort(ByKey(intermediate))
+	// we have sorted the intermediate values
+	// thus all the same keys would appear consecutively
 
 	oname := "mr-out-0"
 	ofile, _ := os.Create(oname)
@@ -71,6 +76,7 @@ func main() {
 		for j < len(intermediate) && intermediate[j].Key == intermediate[i].Key {
 			j++
 		}
+		// detect consecutive same keys
 		values := []string{}
 		for k := i; k < j; k++ {
 			values = append(values, intermediate[k].Value)
