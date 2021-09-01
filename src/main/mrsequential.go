@@ -3,7 +3,7 @@ package main
 //
 // simple sequential MapReduce.
 //
-// go run mrsequential.go wc.so pg*.txt
+// go run mrsequential.go ../mrapps/wc.so pg*.txt
 //
 
 import (
@@ -51,6 +51,12 @@ func main() {
 		file.Close()
 		kva := mapf(filename, string(content))
 		intermediate = append(intermediate, kva...)
+	}
+
+	var cnt int = 0
+	for cnt < 0 {
+		fmt.Println(intermediate[cnt])
+		cnt++
 	}
 
 	//
