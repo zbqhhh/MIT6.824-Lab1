@@ -53,12 +53,6 @@ func main() {
 		intermediate = append(intermediate, kva...)
 	}
 
-	var cnt int = 0
-	for cnt < 0 {
-		fmt.Println(intermediate[cnt])
-		cnt++
-	}
-
 	//
 	// a big difference from real MapReduce is that all the
 	// intermediate data is in one place, intermediate[],
@@ -66,6 +60,11 @@ func main() {
 	//
 
 	sort.Sort(ByKey(intermediate))
+	var cnt int = 0
+	for cnt < 10 {
+		fmt.Println(intermediate[cnt])
+		cnt++
+	}
 	// we have sorted the intermediate values
 	// thus all the same keys would appear consecutively
 

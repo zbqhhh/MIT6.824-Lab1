@@ -1,10 +1,13 @@
 package mr
 
-import "fmt"
-import "log"
-import "net/rpc"
-import "hash/fnv"
-
+import (
+	"fmt"
+	"hash/fnv"
+	"log"
+	"math/rand"
+	"net/rpc"
+	"time"
+)
 
 //
 // Map functions return a slice of KeyValue.
@@ -24,15 +27,20 @@ func ihash(key string) int {
 	return int(h.Sum32() & 0x7fffffff)
 }
 
-
 //
 // main/mrworker.go calls this function.
 //
 func Worker(mapf func(string, string) []KeyValue,
 	reducef func(string, []string) string) {
+	fmt.Println("hihihih")
+	r := rand.New(rand.NewSource(time.Now().UnixNano()))
+	args := Args{}
+	args.workID = r.Intn(1000)
 
 	// Your worker implementation here.
-
+	reply := Reply{}
+	call("Coordinator.Call", &args, &reply)
+	fmt.Println(reply.fileName)
 	// uncomment to send the Example RPC to the coordinator.
 	// CallExample()
 
