@@ -26,11 +26,21 @@ type ExampleReply struct {
 
 // Add your RPC definitions here.
 
-type Args struct {
-	workID int
+type DispatchArgs struct {
+	WorkID int
 }
-type Reply struct {
-	fileName string
+type DispatchReply struct {
+	TaskType int
+	FileName string
+}
+
+type RecvArgs struct {
+	TaskType int
+	FileName string
+	WorkID   int
+}
+type RecvReply struct {
+	Status string
 }
 
 // Cook up a unique-ish UNIX-domain socket name
