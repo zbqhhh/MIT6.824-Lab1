@@ -29,7 +29,7 @@ func (a ByKey) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
 func (a ByKey) Less(i, j int) bool { return a[i].Key < a[j].Key }
 
 //
-// use ihash(key) % NReduce to choose the reduce
+// use ihash(key) % reply.NReduce to choose the reduce
 // task number for each KeyValue emitted by Map.
 //
 func ihash(key string) int {
@@ -38,8 +38,8 @@ func ihash(key string) int {
 	return int(h.Sum32() & 0x7fffffff)
 }
 
-const NReduce = 3
-const TEST = 1000
+// const reply.NReduce = 10
+// const TEST = 1000
 
 //
 // main/mrworker.go calls this function.
@@ -60,16 +60,18 @@ func Worker(mapf func(string, string) []KeyValue,
 			fmt.Println("MAP JOB START")
 			mapWorker(args, reply, mapf)
 			fmt.Println("MAP JOB FINISHED")
+			// time.Sleep(10 * time.Millisecond)
 		} else if reply.TaskType == REDUCE {
 			fmt.Println("REDUCE JOB START")
 			reduceWorker(args, reply, reducef)
 			fmt.Println("REDUCE JOB FINISHED")
+			// time.Sleep(1000 * time.Millisecond)
 		} else if reply.TaskType == WAIT {
 			fmt.Println("JUST WAIT")
+			time.Sleep(5000 * time.Millisecond)
 		} else {
 			return
 		}
-		time.Sleep(1000 * time.Millisecond)
 	}
 
 	// uncomment to send the Example RPC to the coordinator.
@@ -82,15 +84,15 @@ func mapWorker(args DispatchArgs, reply DispatchReply,
 	content := getFileContent(reply.FileName)
 	kva := mapf(reply.FileName, string(content))
 
-	ofile := make([]*os.File, NReduce)
+	ofile := make([]*os.File, reply.NReduce)
 
-	for i := 0; i < NReduce; i++ {
+	for i := 0; i < reply.NReduce; i++ {
 		outputFile := "map_out_" + strconv.Itoa(args.WorkID) + "_" + strconv.Itoa(i)
 		ofile[i], _ = os.Create(outputFile)
 	}
 
 	for _, v := range kva {
-		redNum := ihash(v.Key) % NReduce
+		redNum := ihash(v.Key) % reply.NReduce
 		fmt.Fprintf(ofile[redNum], "%v %v\n", v.Key, v.Value)
 	}
 
@@ -144,7 +146,7 @@ func reduceOutput(intermediate []KeyValue, redNum int,
 	reducef func(string, []string) string) {
 	sort.Sort(ByKey(intermediate))
 
-	oname := "mr-reduce-out-" + strconv.Itoa(redNum)
+	oname := "mr-out-" + strconv.Itoa(redNum)
 	ofile, _ := os.Create(oname)
 
 	//

@@ -32,6 +32,7 @@ type DispatchArgs struct {
 type DispatchReply struct {
 	TaskType int
 	FileName string
+	NReduce  int
 }
 
 type RecvArgs struct {
