@@ -185,7 +185,7 @@ const threshold = 10
 
 func (c *Coordinator) checkTask() {
 	for {
-		time.Sleep(5000 * time.Millisecond)
+		time.Sleep(2000 * time.Millisecond)
 		c.mu.Lock()
 		now := time.Now().Unix()
 		if c.mapCnt != len(c.mapTaskStatus)*COMPLETE {

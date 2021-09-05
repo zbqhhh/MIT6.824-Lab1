@@ -1,0 +1,1094 @@
+{A 1}
+{A 1}
+{A 1}
+{A 1}
+{A 1}
+{A 1}
+{A 1}
+{A 1}
+{A 1}
+{A 1}
+*** Starting wc test.
+../pg-huckleberry_finn.txt   0
+../pg-metamorphosis.txt   0
+../pg-sherlock_holmes.txt   0
+../pg-tom_sawyer.txt   0
+../pg-being_ernest.txt   0
+../pg-dorian_gray.txt   0
+../pg-frankenstein.txt   0
+../pg-grimm.txt   0
+hihihih
+hihihih
+hihihih
+../pg-being_ernest.txt
+
+../pg-being_ernest.txt
+MAP JOB START
+../pg-dorian_gray.txt
+
+../pg-frankenstein.txt
+
+../pg-dorian_gray.txt
+MAP JOB START
+../pg-frankenstein.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-sherlock_holmes.txt
+
+../pg-sherlock_holmes.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-grimm.txt
+
+../pg-grimm.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-huckleberry_finn.txt
+
+../pg-huckleberry_finn.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-tom_sawyer.txt
+
+../pg-tom_sawyer.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-metamorphosis.txt
+
+../pg-metamorphosis.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+
+JUST WAIT
+Done
+MAP JOB FINISHED
+
+JUST WAIT
+Done
+MAP JOB FINISHED
+4
+
+4
+REDUCE JOB START
+81
+Done
+REDUCE JOB FINISHED
+1
+
+1
+REDUCE JOB START
+82
+Done
+REDUCE JOB FINISHED
+3
+
+3
+REDUCE JOB START
+83
+Done
+REDUCE JOB FINISHED
+5
+
+5
+REDUCE JOB START
+84
+Done
+REDUCE JOB FINISHED
+6
+
+6
+REDUCE JOB START
+85
+Done
+REDUCE JOB FINISHED
+7
+
+7
+REDUCE JOB START
+86
+Done
+REDUCE JOB FINISHED
+9
+
+9
+REDUCE JOB START
+87
+Done
+REDUCE JOB FINISHED
+2
+
+2
+REDUCE JOB START
+88
+Done
+REDUCE JOB FINISHED
+0
+
+0
+REDUCE JOB START
+89
+Done
+REDUCE JOB FINISHED
+8
+
+8
+REDUCE JOB START
+90
+Done
+REDUCE JOB FINISHED
+All Job Has Done
+
+91
+--- wc test: PASS
+{A ../pg-dorian_gray.txt}
+{A ../pg-huckleberry_finn.txt}
+{A ../pg-frankenstein.txt}
+{A ../pg-tom_sawyer.txt}
+{A ../pg-grimm.txt}
+{A ../pg-sherlock_holmes.txt}
+{A ../pg-being_ernest.txt}
+{A ../pg-metamorphosis.txt}
+{ABOUT ../pg-tom_sawyer.txt}
+{ACT ../pg-being_ernest.txt}
+*** Starting indexer test.
+../pg-being_ernest.txt   0
+../pg-dorian_gray.txt   0
+../pg-frankenstein.txt   0
+../pg-grimm.txt   0
+../pg-huckleberry_finn.txt   0
+../pg-metamorphosis.txt   0
+../pg-sherlock_holmes.txt   0
+../pg-tom_sawyer.txt   0
+hihihih
+hihihih
+../pg-huckleberry_finn.txt
+
+../pg-sherlock_holmes.txt
+
+../pg-sherlock_holmes.txt
+MAP JOB START
+../pg-huckleberry_finn.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-metamorphosis.txt
+
+../pg-metamorphosis.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-tom_sawyer.txt
+
+../pg-tom_sawyer.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-being_ernest.txt
+
+../pg-being_ernest.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-frankenstein.txt
+
+../pg-frankenstein.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-dorian_gray.txt
+
+../pg-dorian_gray.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-grimm.txt
+
+../pg-grimm.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+
+JUST WAIT
+Done
+MAP JOB FINISHED
+6
+
+6
+REDUCE JOB START
+81
+Done
+REDUCE JOB FINISHED
+5
+
+5
+REDUCE JOB START
+82
+Done
+REDUCE JOB FINISHED
+1
+
+1
+REDUCE JOB START
+83
+Done
+REDUCE JOB FINISHED
+3
+
+3
+REDUCE JOB START
+84
+Done
+REDUCE JOB FINISHED
+7
+
+7
+REDUCE JOB START
+85
+Done
+REDUCE JOB FINISHED
+4
+
+4
+REDUCE JOB START
+86
+Done
+REDUCE JOB FINISHED
+8
+
+8
+REDUCE JOB START
+87
+Done
+REDUCE JOB FINISHED
+9
+
+9
+REDUCE JOB START
+88
+Done
+REDUCE JOB FINISHED
+0
+
+0
+REDUCE JOB START
+89
+Done
+REDUCE JOB FINISHED
+2
+
+2
+REDUCE JOB START
+90
+Done
+REDUCE JOB FINISHED
+All Job Has Done
+
+--- indexer test: PASS
+92
+*** Starting map parallelism test.
+../pg-being_ernest.txt   0
+../pg-dorian_gray.txt   0
+../pg-frankenstein.txt   0
+../pg-grimm.txt   0
+../pg-huckleberry_finn.txt   0
+../pg-metamorphosis.txt   0
+../pg-sherlock_holmes.txt   0
+../pg-tom_sawyer.txt   0
+hihihih
+hihihih
+../pg-dorian_gray.txt
+
+../pg-tom_sawyer.txt
+
+../pg-tom_sawyer.txt
+../pg-dorian_gray.txt
+MAP JOB START
+MAP JOB START
+Done
+MAP JOB FINISHED
+Done
+MAP JOB FINISHED
+../pg-metamorphosis.txt
+
+../pg-sherlock_holmes.txt
+
+../pg-metamorphosis.txt
+MAP JOB START
+../pg-sherlock_holmes.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-being_ernest.txt
+
+../pg-being_ernest.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-frankenstein.txt
+
+../pg-frankenstein.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-huckleberry_finn.txt
+
+../pg-huckleberry_finn.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-grimm.txt
+
+../pg-grimm.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+
+JUST WAIT
+Done
+MAP JOB FINISHED
+2
+
+2
+REDUCE JOB START
+80
+Done
+REDUCE JOB FINISHED
+9
+
+9
+REDUCE JOB START
+81
+Done
+REDUCE JOB FINISHED
+1
+
+1
+REDUCE JOB START
+82
+Done
+REDUCE JOB FINISHED
+3
+
+3
+REDUCE JOB START
+83
+Done
+REDUCE JOB FINISHED
+5
+
+5
+REDUCE JOB START
+84
+Done
+REDUCE JOB FINISHED
+8
+
+8
+REDUCE JOB START
+85
+Done
+REDUCE JOB FINISHED
+4
+
+4
+REDUCE JOB START
+86
+Done
+REDUCE JOB FINISHED
+6
+
+6
+REDUCE JOB START
+87
+Done
+REDUCE JOB FINISHED
+0
+
+0
+REDUCE JOB START
+88
+Done
+REDUCE JOB FINISHED
+7
+
+7
+REDUCE JOB START
+89
+Done
+REDUCE JOB FINISHED
+All Job Has Done
+
+90
+--- map parallelism test: PASS
+*** Starting reduce parallelism test.
+../pg-huckleberry_finn.txt   0
+../pg-metamorphosis.txt   0
+../pg-sherlock_holmes.txt   0
+../pg-tom_sawyer.txt   0
+../pg-being_ernest.txt   0
+../pg-dorian_gray.txt   0
+../pg-frankenstein.txt   0
+../pg-grimm.txt   0
+hihihih
+hihihih
+../pg-frankenstein.txt
+
+../pg-grimm.txt
+
+../pg-frankenstein.txt
+MAP JOB START
+../pg-grimm.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-huckleberry_finn.txt
+
+../pg-huckleberry_finn.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-metamorphosis.txt
+
+../pg-metamorphosis.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-sherlock_holmes.txt
+
+../pg-sherlock_holmes.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-tom_sawyer.txt
+
+../pg-tom_sawyer.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-being_ernest.txt
+
+../pg-being_ernest.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-dorian_gray.txt
+
+../pg-dorian_gray.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+
+JUST WAIT
+Done
+MAP JOB FINISHED
+2
+
+2
+REDUCE JOB START
+80
+Done
+REDUCE JOB FINISHED
+8
+
+8
+REDUCE JOB START
+81
+Done
+REDUCE JOB FINISHED
+9
+
+9
+REDUCE JOB START
+82
+Done
+REDUCE JOB FINISHED
+3
+
+3
+REDUCE JOB START
+83
+Done
+REDUCE JOB FINISHED
+0
+
+0
+REDUCE JOB START
+84
+1
+
+1
+REDUCE JOB START
+86
+Done
+REDUCE JOB FINISHED
+4
+
+4
+REDUCE JOB START
+87
+Done
+REDUCE JOB FINISHED
+7
+
+7
+REDUCE JOB START
+88
+Done
+REDUCE JOB FINISHED
+5
+
+5
+REDUCE JOB START
+89
+Done
+REDUCE JOB FINISHED
+6
+
+6
+REDUCE JOB START
+90
+Done
+REDUCE JOB FINISHED
+
+JUST WAIT
+Done
+REDUCE JOB FINISHED
+All Job Has Done
+
+--- reduce parallelism test: PASS
+90
+*** Starting job count test.
+../pg-sherlock_holmes.txt   0
+../pg-tom_sawyer.txt   0
+../pg-being_ernest.txt   0
+../pg-dorian_gray.txt   0
+../pg-frankenstein.txt   0
+../pg-grimm.txt   0
+../pg-huckleberry_finn.txt   0
+../pg-metamorphosis.txt   0
+hihihih
+hihihih
+../pg-tom_sawyer.txt
+
+../pg-being_ernest.txt
+
+../pg-tom_sawyer.txt
+MAP JOB START
+../pg-being_ernest.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+Done
+MAP JOB FINISHED
+../pg-metamorphosis.txt
+
+../pg-grimm.txt
+
+../pg-metamorphosis.txt
+MAP JOB START
+../pg-grimm.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-frankenstein.txt
+
+../pg-frankenstein.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-dorian_gray.txt
+
+../pg-dorian_gray.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+Done
+MAP JOB FINISHED
+../pg-huckleberry_finn.txt
+
+../pg-sherlock_holmes.txt
+
+../pg-huckleberry_finn.txt
+MAP JOB START
+../pg-sherlock_holmes.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+4
+
+Done
+MAP JOB FINISHED
+4
+REDUCE JOB START
+5
+
+88
+5
+REDUCE JOB START
+89
+Done
+REDUCE JOB FINISHED
+Done
+REDUCE JOB FINISHED
+8
+
+8
+REDUCE JOB START
+1
+
+90
+1
+REDUCE JOB START
+90
+Done
+REDUCE JOB FINISHED
+3
+
+Done
+REDUCE JOB FINISHED
+3
+REDUCE JOB START
+9
+
+92
+9
+REDUCE JOB START
+93
+Done
+REDUCE JOB FINISHED
+0
+
+Done
+REDUCE JOB FINISHED
+0
+REDUCE JOB START
+2
+
+94
+2
+REDUCE JOB START
+94
+Done
+REDUCE JOB FINISHED
+7
+
+Done
+REDUCE JOB FINISHED
+7
+REDUCE JOB START
+6
+
+96
+6
+REDUCE JOB START
+97
+Done
+REDUCE JOB FINISHED
+All Job Has Done
+Done
+REDUCE JOB FINISHED
+
+All Job Has Done
+
+hihihih
+hihihih
+All Job Has Done
+All Job Has Done
+
+
+98
+--- job count test: PASS
+*** Starting early exit test.
+../pg-frankenstein.txt   0
+../pg-grimm.txt   0
+../pg-huckleberry_finn.txt   0
+../pg-metamorphosis.txt   0
+../pg-sherlock_holmes.txt   0
+../pg-tom_sawyer.txt   0
+../pg-being_ernest.txt   0
+../pg-dorian_gray.txt   0
+hihihih
+hihihih
+hihihih
+../pg-grimm.txt
+
+../pg-grimm.txt
+MAP JOB START
+../pg-being_ernest.txt
+
+../pg-metamorphosis.txt
+
+../pg-being_ernest.txt
+MAP JOB START
+../pg-metamorphosis.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+Done
+MAP JOB FINISHED
+../pg-dorian_gray.txt
+
+../pg-huckleberry_finn.txt
+
+../pg-dorian_gray.txt
+MAP JOB START
+../pg-huckleberry_finn.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-tom_sawyer.txt
+
+../pg-tom_sawyer.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-frankenstein.txt
+
+Done
+MAP JOB FINISHED
+../pg-frankenstein.txt
+MAP JOB START
+../pg-sherlock_holmes.txt
+
+../pg-sherlock_holmes.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+
+JUST WAIT
+Done
+MAP JOB FINISHED
+
+JUST WAIT
+Done
+MAP JOB FINISHED
+2
+
+2
+REDUCE JOB START
+80
+Done
+REDUCE JOB FINISHED
+6
+
+6
+REDUCE JOB START
+81
+9
+
+9
+REDUCE JOB START
+0
+
+0
+REDUCE JOB START
+82
+82
+Done
+REDUCE JOB FINISHED
+Done
+REDUCE JOB FINISHED
+1
+
+1
+REDUCE JOB START
+4
+
+4
+REDUCE JOB START
+84
+84
+Done
+REDUCE JOB FINISHED
+Done
+REDUCE JOB FINISHED
+5
+
+5
+REDUCE JOB START
+3
+
+86
+3
+REDUCE JOB START
+87
+Done
+REDUCE JOB FINISHED
+7
+
+Done
+REDUCE JOB FINISHED
+7
+REDUCE JOB START
+88
+8
+
+8
+REDUCE JOB START
+89
+Done
+REDUCE JOB FINISHED
+Done
+REDUCE JOB FINISHED
+
+JUST WAIT
+
+JUST WAIT
+Done
+REDUCE JOB FINISHED
+All Job Has Done
+
+91
+--- early exit test: PASS
+*** Starting crash test.
+{a ../pg-frankenstein.txt}
+{a ../pg-tom_sawyer.txt}
+{a ../pg-sherlock_holmes.txt}
+{a ../pg-metamorphosis.txt}
+{a ../pg-dorian_gray.txt}
+{a ../pg-huckleberry_finn.txt}
+{a ../pg-grimm.txt}
+{a ../pg-being_ernest.txt}
+{b 20}
+{b 22}
+../pg-tom_sawyer.txt   0
+../pg-being_ernest.txt   0
+../pg-dorian_gray.txt   0
+../pg-frankenstein.txt   0
+../pg-grimm.txt   0
+../pg-huckleberry_finn.txt   0
+../pg-metamorphosis.txt   0
+../pg-sherlock_holmes.txt   0
+hihihih
+hihihih
+hihihih
+hihihih
+../pg-grimm.txt
+
+../pg-huckleberry_finn.txt
+
+../pg-tom_sawyer.txt
+
+../pg-being_ernest.txt
+
+../pg-being_ernest.txt
+MAP JOB START
+../pg-grimm.txt
+MAP JOB START
+../pg-huckleberry_finn.txt
+MAP JOB START
+../pg-tom_sawyer.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-sherlock_holmes.txt
+
+../pg-sherlock_holmes.txt
+MAP JOB START
+hihihih
+../pg-metamorphosis.txt
+
+hihihih
+../pg-metamorphosis.txt
+MAP JOB START
+../pg-dorian_gray.txt
+
+../pg-dorian_gray.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-frankenstein.txt
+
+../pg-frankenstein.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+
+JUST WAIT
+Done
+MAP JOB FINISHED
+
+JUST WAIT
+hihihih
+
+JUST WAIT
+
+JUST WAIT
+
+JUST WAIT
+
+JUST WAIT
+../pg-grimm.txt
+
+../pg-grimm.txt
+MAP JOB START
+../pg-tom_sawyer.txt
+
+../pg-tom_sawyer.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+../pg-being_ernest.txt
+
+../pg-being_ernest.txt
+MAP JOB START
+Done
+MAP JOB FINISHED
+
+JUST WAIT
+
+JUST WAIT
+hihihih
+
+JUST WAIT
+../pg-dorian_gray.txt
+
+../pg-dorian_gray.txt
+MAP JOB START
+
+JUST WAIT
+
+JUST WAIT
+hihihih
+
+JUST WAIT
+
+JUST WAIT
+
+JUST WAIT
+
+JUST WAIT
+../pg-grimm.txt
+
+../pg-grimm.txt
+MAP JOB START
+
+JUST WAIT
+
+JUST WAIT
+../pg-dorian_gray.txt
+
+../pg-dorian_gray.txt
+MAP JOB START
+
+JUST WAIT
+Done
+MAP JOB FINISHED
+
+JUST WAIT
+Done
+MAP JOB FINISHED
+6
+
+6
+REDUCE JOB START
+81
+Done
+REDUCE JOB FINISHED
+2
+
+2
+REDUCE JOB START
+82
+Done
+REDUCE JOB FINISHED
+0
+
+0
+REDUCE JOB START
+83
+8
+
+8
+REDUCE JOB START
+84
+Done
+REDUCE JOB FINISHED
+4
+
+4
+REDUCE JOB START
+85
+Done
+REDUCE JOB FINISHED
+9
+
+9
+REDUCE JOB START
+86
+1
+
+1
+REDUCE JOB START
+87
+Done
+REDUCE JOB FINISHED
+3
+
+3
+REDUCE JOB START
+88
+Done
+REDUCE JOB FINISHED
+7
+
+7
+REDUCE JOB START
+89
+Done
+REDUCE JOB FINISHED
+5
+
+5
+REDUCE JOB START
+90
+hihihih
+
+JUST WAIT
+hihihih
+
+JUST WAIT
+Done
+REDUCE JOB FINISHED
+
+JUST WAIT
+
+JUST WAIT
+
+JUST WAIT
+
+JUST WAIT
+
+JUST WAIT
+9
+
+9
+REDUCE JOB START
+91
+5
+
+5
+REDUCE JOB START
+91
+Done
+REDUCE JOB FINISHED
+
+JUST WAIT
+Done
+REDUCE JOB FINISHED
+All Job Has Done
+
+91
+hihihih
+All Job Has Done
+
+All Job Has Done
+
+--- crash test: PASS
+*** PASSED ALL TESTS
